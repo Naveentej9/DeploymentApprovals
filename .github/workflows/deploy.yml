@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@v2
                
       - name: Download workflow artifact
-        uses: dawidd6/action-download-artifact@v2.15.0
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build.yml
           repo: n3wt0n/DeploymentApprovals
@@ -64,7 +64,7 @@ jobs:
     steps:
                
       - name: Download workflow artifact
-        uses: dawidd6/action-download-artifact@v2.15.0
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build.yml
           repo: n3wt0n/DeploymentApprovals
